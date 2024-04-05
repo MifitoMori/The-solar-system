@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Group4.unity
     guid: bc8cda5b44d24994ead4b3332cf428e7
+  - enabled: 1
+    path: Assets/Scenes/Exp1MerkAndUp.unity
+    guid: b16e38297529d8b40b822fe9f99218af
+  - enabled: 1
+    path: Assets/Scenes/Exp3Saturn.unity
+    guid: 18645df93f70548498622df87a9c633c
+  - enabled: 1
+    path: Assets/Scenes/Exp2Mars.unity
+    guid: eb5c756da5220174198cf92d08ae1959
   m_configObjects: {}
