@@ -3,17 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Planet
+  - AnotherObject
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Sphere
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Block
+  - CHARGE
+  - Plat
   - 
   - 
   - 
@@ -40,4 +42,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: New Layer 1
+    uniqueID: 1298932317
+    locked: 0
+  - name: New Layer 2
+    uniqueID: 2311133201
     locked: 0
