@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WinClick : MonoBehaviour
 {
-    int fullEl = 12;
+    int fullEl = 13;
     public static int myEl;
     
     public GameObject winPanel;

@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Exp1MerkUpiter.unity
     guid: 4905eeb397218cb4cae9e7df48d91de7
+  - enabled: 1
+    path: Assets/Scenes/Exp2Mars.unity
+    guid: 40f7715b453076c4e811dd66bd4d6f2c
   m_configObjects: {}
