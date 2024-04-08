@@ -14,11 +14,11 @@ using UnityEngine;
         float startPosY;
         public GameObject form;
         bool finish;
-        Vector2 resetPos;
+        private Vector2 reset;
 
-    private void Awake()
+    private void Start()
     {
-        resetPos = transform.position;
+        reset = transform.localPosition;
     }
     void OnMouseDown()
         {
@@ -46,7 +46,7 @@ using UnityEngine;
             }
             else
         {
-            transform.position = resetPos; finish = false;
+             this.transform.localPosition = new Vector2(reset.x, reset.y);
         }
            
     }
