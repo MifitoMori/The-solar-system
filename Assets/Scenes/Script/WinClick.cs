@@ -9,7 +9,7 @@ public class WinClick : MonoBehaviour
     
     public GameObject winPanel;
     public GameObject button;
-    public GameObject txt;
+
     // Update is called once per frame
     void Update()
     {
@@ -17,7 +17,7 @@ public class WinClick : MonoBehaviour
         {
             winPanel.SetActive(true);
             button.SetActive(false);
-            txt.SetActive(false);
+
         }
         
     }
