@@ -10,6 +10,11 @@ public class DisableInertsia : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
+        void FixedUpdate()
+    {
+        // Запрещаем движение по оси X
+        rb.velocity = new Vector2(0, rb.velocity.y);
+    }
 
     void OnCollisionEnter2D(Collision2D col)
     {

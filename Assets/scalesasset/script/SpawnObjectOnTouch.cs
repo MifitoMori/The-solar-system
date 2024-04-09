@@ -58,7 +58,6 @@ public class SpawnObjectOnTouch : MonoBehaviour
     void Show()
     {
         textComponent.text = "Не больше 3 планет на одну чашу";
-
         Invoke("HideText", displayTime);
 
     }
