@@ -38,7 +38,7 @@ using UnityEngine;
 
             
             if (Math.Abs(this.transform.position.x - form.transform.position.x) <= 3f &&
-               Math.Abs(this.transform.position.y - form.transform.position.y) <= 10f && finish != true)
+               Math.Abs(this.transform.position.y - form.transform.position.y) <= 10f)
             {
                 this.transform.position = new Vector2(form.transform.position.x, form.transform.position.y);
                 finish = true;
