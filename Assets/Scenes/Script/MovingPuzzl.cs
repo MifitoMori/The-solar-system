@@ -22,8 +22,8 @@ public class MovingPuzzl : MonoBehaviour
     private void OnMouseUp()
     {
         move = false;
-        if(Mathf.Abs(this.transform.localPosition.x - form.transform.localPosition.x) <= 5f &&
-            Mathf.Abs(this.transform.localPosition.y - form.transform.localPosition.y) <= 5f)
+        if(Mathf.Abs(this.transform.localPosition.x - form.transform.localPosition.x) <= 25f &&
+            Mathf.Abs(this.transform.localPosition.y - form.transform.localPosition.y) <= 25f)
         {
             this.transform.position = new Vector2(form.transform.position.x, form.transform.position.y);
             finish = true;
