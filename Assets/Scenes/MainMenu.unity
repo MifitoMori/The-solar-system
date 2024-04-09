@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 4431872}
   - component: {fileID: 4431871}
   - component: {fileID: 4431874}
+  - component: {fileID: 4431875}
   m_Layer: 5
   m_Name: exit
   m_TagString: Untagged
@@ -206,8 +207,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+      - m_Target: {fileID: 4431875}
+        m_TargetAssemblyTypeName: Exit, Assembly-CSharp
         m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
@@ -277,6 +278,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4431875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4431869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ecf80b1d75cdea4688066dd2254a25b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &206163966
 GameObject:
   m_ObjectHideFlags: 0
