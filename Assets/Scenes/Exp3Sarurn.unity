@@ -1934,7 +1934,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1223641069}
-  - component: {fileID: 1223641070}
+  - component: {fileID: 1223641071}
   m_Layer: 0
   m_Name: Win
   m_TagString: Untagged
@@ -1957,7 +1957,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3579333}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1223641070
+--- !u!114 &1223641071
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1966,7 +1966,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1223641068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a77d821e2c24ea4c8272b58ef25ddc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 15f63400ea35e174992723a25814c5db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myPuzzl: {fileID: 27751276}
@@ -2389,6 +2389,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1559006855}
+  - component: {fileID: 1559006856}
   m_Layer: 0
   m_Name: WinPanel
   m_TagString: Untagged
@@ -2413,6 +2414,21 @@ Transform:
   - {fileID: 362035682}
   m_Father: {fileID: 3579333}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1559006856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559006854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f63400ea35e174992723a25814c5db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myPuzzl: {fileID: 27751276}
+  myPanel: {fileID: 409149915}
+  WinPanel: {fileID: 1559006854}
 --- !u!1 &1665623710
 GameObject:
   m_ObjectHideFlags: 0

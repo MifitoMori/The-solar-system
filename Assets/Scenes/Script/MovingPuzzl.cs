@@ -27,7 +27,7 @@ public class MovingPuzzl : MonoBehaviour
         {
             this.transform.position = new Vector2(form.transform.position.x, form.transform.position.y);
             finish = true;
-            WinScript.AddElement();
+            WINSATURN.AddElement();
         }
     }
     void Start()
