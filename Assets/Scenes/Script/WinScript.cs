@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WinScript : MonoBehaviour
 {
-    int fullElement;
+    
     public static int myElement;
     public GameObject myPuzzl;
     public GameObject myPanel;
@@ -12,21 +12,33 @@ public class WinScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        fullElement = myPuzzl.transform.childCount;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (fullElement == myElement)
+        int placedElements = 0;
+        foreach (Transform child in myPuzzl.transform)
+        {
+            if (child.position == child.GetComponent<MovengPuzzl>().form.transform.position)
+            {
+                placedElements++;
+            }
+        }
+
+        if (placedElements == myPuzzl.transform.childCount)
         {
             myPanel.SetActive(false);
             WinPanel.SetActive(true);
         }
     }
 
-    public static void AddElement()
+    public static void AddElement(GameObject puzzle)
     {
-        myElement++;
+        if (myElement < puzzle.transform.childCount)
+        {
+            myElement++;
+        }
     }
 }
