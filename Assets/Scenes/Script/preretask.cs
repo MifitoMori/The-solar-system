@@ -28,13 +28,13 @@ public class preretask : MonoBehaviour
     {
         move = false;
         if (Mathf.Abs(this.transform.localPosition.x - form.transform.localPosition.x) <= 0.5f &&
-            Mathf.Abs(this.transform.localPosition.y - form.transform.localPosition.y) <= 0.5f)
+            Mathf.Abs(this.transform.localPosition.y - form.transform.localPosition.y) <= 0.5f && finish == false)
         {
             this.transform.position = new Vector2(form.transform.position.x, form.transform.position.y);
             finish = true;
             WinDA.AddElement();
         }
-        else
+        else if(!finish)
         {
             this.transform.localPosition = new Vector3(reset.x, reset.y, reset.z);
         }

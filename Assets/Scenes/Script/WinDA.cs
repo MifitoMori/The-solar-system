@@ -11,6 +11,10 @@ public class WinDA : MonoBehaviour
     public GameObject Prav;
 
     // Update is called once per frame
+    void Start()
+    {
+        myEl = 0;
+    }
     void Update()
     {
 
@@ -36,6 +40,7 @@ public class WinDA : MonoBehaviour
     public static void AddElement()
     {
         myEl++;
+        Debug.Log(myEl);
 
     }
 }
