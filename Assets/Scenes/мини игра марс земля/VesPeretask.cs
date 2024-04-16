@@ -9,6 +9,7 @@ public class VesPeretask : MonoBehaviour
     Vector2 mousePos;
     float startPosX;
     float startPosY;
+    private Vector3 reset;
     bool finish;
     public GameObject formMars;
     public GameObject formZemla;
@@ -41,9 +42,9 @@ public class VesPeretask : MonoBehaviour
         if (Mathf.Abs(this.transform.localPosition.x - formZemla.transform.localPosition.x) <= 80f &&
             Mathf.Abs(this.transform.localPosition.y - formZemla.transform.localPosition.y) <= 80f)
         {
-            this.transform.position = new Vector2(formZemla.transform.position.x, formZemla.transform.position.y);
+           this.transform.position = new Vector2(formZemla.transform.position.x, formZemla.transform.position.y);
 
-            SpavnInMars();
+           SpavnInMars();
 
         }
         else if (Mathf.Abs(this.transform.localPosition.x - formMars.transform.localPosition.x) <= 80f &&
@@ -57,11 +58,12 @@ public class VesPeretask : MonoBehaviour
         else
         {
             Sbros();
+            this.transform.localPosition = new Vector3(reset.x, reset.y, reset.z);
         }
     }
     void Start()
     {
-
+        reset = this.transform.localPosition;
     }
     void Update()
     {
