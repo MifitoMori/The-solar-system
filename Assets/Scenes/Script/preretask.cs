@@ -8,6 +8,7 @@ public class preretask : MonoBehaviour
     float startPosX;
     float startPosY;
     public GameObject form;
+    public GameObject da;
     bool finish;
     private Vector3 reset;
     private void OnMouseDown()
@@ -33,6 +34,7 @@ public class preretask : MonoBehaviour
             this.transform.position = new Vector2(form.transform.position.x, form.transform.position.y);
             finish = true;
             WinDA.AddElement();
+            da.SetActive(true);
         }
         else if(!finish)
         {
