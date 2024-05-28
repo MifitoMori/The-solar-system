@@ -21,6 +21,11 @@ public class Sbros : MonoBehaviour
     public GameObject k11;
     public GameObject k12;
     public GameObject k13;
+
+    void Start()
+    {
+        sbrosBut();
+    }
     public void sbrosBut()
     {
             winPanel.SetActive(false);

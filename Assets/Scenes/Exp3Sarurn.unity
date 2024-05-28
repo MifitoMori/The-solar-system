@@ -217,6 +217,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1665623712}
   - {fileID: 1449248227}
   - {fileID: 2025806526}
   - {fileID: 406216146}
@@ -2439,7 +2440,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1665623712}
   - component: {fileID: 1665623711}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: "\u0441\u043E\u0431\u0435\u0440\u0438\u0442\u0435 \u043A\u043E\u043B\u044C\u0446\u0430
     \u0441\u0430\u0442\u0443\u0440\u043D\u0430"
   m_TagString: Untagged
@@ -2507,12 +2508,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1665623710}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10000}
+  m_LocalScale: {x: 107.98674, y: 107.98674, z: 107.98674}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 3579333}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1741397320
 GameObject:
@@ -2909,4 +2910,3 @@ SceneRoots:
   - {fileID: 3579333}
   - {fileID: 968803777}
   - {fileID: 397367166}
-  - {fileID: 1665623712}

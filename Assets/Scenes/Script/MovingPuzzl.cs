@@ -23,7 +23,7 @@ public class MovingPuzzl : MonoBehaviour
     {
         move = false;
         if(Mathf.Abs(this.transform.localPosition.x - form.transform.localPosition.x) <= 25f &&
-            Mathf.Abs(this.transform.localPosition.y - form.transform.localPosition.y) <= 25f)
+            Mathf.Abs(this.transform.localPosition.y - form.transform.localPosition.y) <= 25f && finish == false)
         {
             this.transform.position = new Vector2(form.transform.position.x, form.transform.position.y);
             finish = true;

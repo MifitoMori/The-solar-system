@@ -13,6 +13,7 @@ public class WINSATURN : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        myElement = 0;
         fullElement = myPuzzl.transform.childCount;
     }
 

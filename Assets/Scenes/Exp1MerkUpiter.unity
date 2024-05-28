@@ -399,6 +399,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Back, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &232326432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -643,7 +655,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0476ce7546f6d6241887da9804a775dc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8112c8b7e589cbf4984702023022ee68, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
